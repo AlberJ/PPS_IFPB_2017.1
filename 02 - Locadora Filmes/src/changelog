@@ -1,0 +1,8 @@
+Changelog:
+*Tornei o atributo pontos de alugel frequente um atributo da classe cliente.
+*O atributo ValorTotal agora é um atributo de cliente e não faz mais parte de Extrato();
+*Separei a contagem de pontos de alugador frequente para um outro método em cliente.
+*Melhorei alguns dos textos tornando assim os mesmos mais claros e de fácil entendimento.
+*Removi aquele "fimDeLinha" e onde ele era utilizado coloquei \n.
+*Substitui o getNome() por this.Nome nos métodos em Cliente.
+*Todo o calculo de custo é feito no método CalcularCusto();
